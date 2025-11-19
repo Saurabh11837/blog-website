@@ -160,7 +160,7 @@ const Body = ({}) => {
               </h1>
               <p className="text-center text-gray-700 text-xs px-5 md:px-0 md:text-sm lg:text-base">
                 This is your space to think out loud, to share what matters, and
-                to write without filters. Whether it's one word or a thousand,
+                to write without filters. Whether it&apos;s one word or a thousand,
                 your story starts right here.
               </p>
 

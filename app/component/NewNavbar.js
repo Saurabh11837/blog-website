@@ -71,7 +71,7 @@ const NewNavbar = () => {
           </button>
         ) : (
           <div className="flex items-center gap-3">
-            <img
+            <image
               src={session.user.image}
               alt="Profile"
               className="w-8 h-8 rounded-full"
