@@ -134,7 +134,7 @@ const Apicall = () => {
         {/* SEE MORE / SEE LESS */}
         <button
           onClick={() => setShowAll(!showAll)}
-          className="mt-4 text-blue-600 font-medium underline"
+          className="mt-4 text-blue-600 font-medium underline cursor-pointer"
         >
           {showAll ? "See Less" : "See More"}
         </button>

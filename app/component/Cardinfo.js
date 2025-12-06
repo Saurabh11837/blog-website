@@ -2,6 +2,7 @@
 
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import React from "react";
 
 const CardInfo = () => {
@@ -40,7 +41,7 @@ const CardInfo = () => {
         <h1 className="text-4xl font-bold mb-4">{data.title}</h1>
 
         {/* Image */}
-        <img
+        <Image
           src={data.featured_image}
           alt={data.title}
           className="w-full h-80 object-cover rounded-xl shadow"

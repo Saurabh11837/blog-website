@@ -15,7 +15,7 @@
 "use client";
 import { useParams } from "next/navigation";
 import React from "react";
-
+import Image from "next/image";
 const dummyData = {
   1: {
     title: "Beautiful Sunset",
@@ -50,7 +50,7 @@ const Page = () => {
       <div className="bg-gray-900 text-white w-[500px] rounded-2xl shadow-xl overflow-hidden">
         
         {/* Image */}
-        <img src={data.image} alt="img" className="w-full h-60 object-cover" />
+        <Image src={data.image} alt="img" className="w-full h-60 object-cover" />
 
         <div className="p-6">
           {/* Tag */}

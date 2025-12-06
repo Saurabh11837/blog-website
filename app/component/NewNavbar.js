@@ -38,7 +38,7 @@ const NewNavbar = () => {
 
         {/* 👇 SHOW USER PROFILE IMAGE AFTER LOGIN */}
         {session && (
-          <img
+          <Image
             src={session.user.image}
             alt="Profile"
             className="w-9 h-9 rounded-full border border-gray-300 shadow-sm"

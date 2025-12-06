@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Card = ({ item }) => {
   
@@ -24,7 +25,7 @@ const Card = ({ item }) => {
       >
         {/* Image */}
         <div className="w-full h-48 overflow-hidden">
-          <img
+          <Image
             src={item.featured_image}
             alt={item.title}
             className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
