@@ -41,6 +41,8 @@ const NewNavbar = () => {
           <Image
             src={session.user.image}
             alt="Profile"
+            width={36}
+            height={36}
             className="w-9 h-9 rounded-full border border-gray-300 shadow-sm"
           />
         )}
